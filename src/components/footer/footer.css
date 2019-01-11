@@ -1,0 +1,59 @@
+
+footer {
+    position: relative;
+    width: 100vw;
+    height: 19vh;
+  }
+  
+
+.footerDiv {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: #A29160;
+  }
+
+  .linksBlock {
+    display: grid;
+    grid-template-columns: 1.5fr 0.8fr 1fr 1.8fr;
+    grid-template-rows: auto;
+    padding-top:1em;
+  }
+  
+  .linksBlock > div {
+    display: grid;
+  }
+  
+  .linksBlock > div > a {
+    font-size: 16px;
+    cursor: pointer;
+    color: white;
+    padding: 10px 0;
+  }
+
+  .linksBlock > div > a:hover{
+      text-decoration: underline;
+  }
+  
+  .COMPANY {
+    justify-content: flex-end;
+  }
+  
+  .INFO {
+    margin-left:130px;
+    justify-content: center;
+  }
+  
+  .BENEFITS {
+    justify-content: center;
+  }
+  
+  .BLOG {
+    justify-content: flex-start;
+  }
+
+#company, #links, #benefits ,#blogs{
+  text-decoration: none;
+  cursor: default;
+}
+  

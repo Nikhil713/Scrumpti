@@ -1,0 +1,73 @@
+
+.mainPage{
+    position: relative;
+    width:100vw;
+    height: 88vh;
+    background: linear-gradient( rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.3) ), url('../../assets/images/food.jpg');
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    display: grid;
+    grid-template-rows: auto auto auto;
+    grid-template-columns: auto;
+  }
+  
+  
+  .mainPageContent{
+    display: grid;
+    grid-template-rows: auto auto ;
+    grid-template-columns: auto ;
+    /* border: solid black 2px; */
+  }
+  
+  
+  .mainPageName{
+    display: flex;
+    justify-content: center;
+    font-size: 200px;
+    margin-left: 20px;
+    /* background-color: blue; */
+    font-family: "Peaches And Cream";
+  }
+  
+  .mainPageText{
+    margin-left: 40px;
+    display: flex;
+    justify-content:center;
+    font-size: 70px;
+    /* background-color: violet; */
+  }
+  
+  .mainPageContent > div {
+    color: #ffffff;
+  }
+
+  .menu{
+    display: flex;
+    margin-left:60px;
+    justify-content: center;
+    /* border: solid black 2px; */
+  }
+  
+  .menu > button{
+    font-size: 18px;
+    font-family: Geogia;
+    margin-left: 15px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    color: #ffffff;
+    background-color: transparent;
+    border:solid 1px white;
+    cursor: pointer;
+    
+  }
+
+  .menu >button:hover{
+    color:#5F0038;
+    background-color: white;
+    font-size:20px;
+    border-radius: 20px;
+  }
