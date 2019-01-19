@@ -28,7 +28,7 @@ a {
   /* display: none; */
 }
 
-.modalContent{
+.modalContentLogin{
   width:490px;
   height:500px;
   background-color: white;
@@ -49,7 +49,7 @@ a {
 }
 
 
-.modalContent > a{
+.modalContentLogin,.modalContentSignup > a{
   font-family: Peaches And Cream;
   font-size:90px;
   height: 20%;
@@ -59,7 +59,7 @@ a {
 }
 
 
-.modalContent >form > input{
+.modalContentLogin >form > input{
   width:90%;
   display: inline-block;
   border:1px solid #ccc;
@@ -109,4 +109,15 @@ button:hover{
 
 .forgot:hover {
   text-decoration: underline;
+}
+
+
+.modalContentSignup{
+  width:550px;
+  height:600px;
+  background-color: white;
+  text-align: center;
+  position: relative;
+  padding:20px;
+  padding-top:40px;
 }

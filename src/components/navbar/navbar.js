@@ -20,7 +20,8 @@ class Navbar extends Component {
     }
 
     handleSignUp(e){
-        
+        e.preventDefault();
+        this.props.display1();
     }
 
     render() {
@@ -50,7 +51,7 @@ class Navbar extends Component {
                     {/* <input type="email" class="username" placeholder="Username"/>
                     <input type="password" class="password" placeholder="Password"/> */}
                     <button className = "signInButton" onClick={this.handleSignIn.bind(this)}>Sign In</button>
-                    <button className = "signUpButton" onClick={this.handleSignUp}>Sign Up</button>
+                    <button className = "signUpButton" onClick={this.handleSignUp.bind(this)}>Sign Up</button>
                 </form>
                 {/* <div className = "signUp">
                     Don't have an account? <a href="#">Sign up</a>
