@@ -3,10 +3,10 @@
 .navbar {
     width:100vw;
     height:12vh;
-    background-color: #ffffff;
+    background-color: white;
     display:flex;
     align-items: center;
-    position: sticky;
+    /* position: sticky; */
   }
   
   .appName {
@@ -22,6 +22,7 @@
     display: flex;
     justify-content: space-between;
     padding: 5em;
+    padding-right:4em;
     font-size:16px;
     font-family: Helvetica;
     /* border:solid #5F0038 2px;  */
@@ -32,20 +33,31 @@
   }
   .login{
     width: 25vw;
-    /* display: flex; */
-    justify-content: center;
+    margin-left:20px;
+    /* justify-content: center; */
     /* border:solid blue 2px; */
-    display:grid;
+    display:flex;
   }
-  
+/*   
   .username, .password{
     font-size:13px;
     width:140px;
     margin-top:2em;
     margin-left: 1em;
+  } */
+
+  .searchBar{
+    padding-left: 0px;
+    font-size:22px;
+    /* border: solid 1px black; */
+    /* width:50%; */
   }
   
-  .loginbutton{
+  .searchBox{
+    width:17em;
+    height: 2em;
+  }
+  .signUpButton{
     margin-left:1em;
     color: #5F0038;
     font-size: 16px;
@@ -56,13 +68,33 @@
     background: #ffffff;
     cursor: pointer;
     font-family: Georgia;
+
   }
 
-  .loginbutton:hover{
+  .signUpButton:hover{
     color:white;
     background-color:#5F0038; 
   }
   
+
+  .signInButton{
+    margin-left:1em;
+    color: #5F0038;
+    font-size: 16px;
+    padding-left:0.6em;
+    padding-right: 0.6em;
+    padding-top: 0.3em;
+    padding-bottom: 0.3em; 
+    background: #ffffff;
+    cursor: pointer;
+    font-family: Georgia;
+    border:none;
+  }
+
+  .signInButton:hover{
+    text-decoration: underline; 
+  }
+
   .navbar > div > a{
     color: #5F0038;
   }
