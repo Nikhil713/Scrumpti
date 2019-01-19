@@ -1,15 +1,22 @@
 import React, {Component} from 'react';
-import './navbar.css'
-
+import './navbar.css';
 
 class Navbar extends Component {
-    
-    handleClick(e){
+    // constructor(props){
+    //     super(props);
+
+    // this.state = {
+    //     isShow: false
+    // };
+    // }
+    // handleClick(e){
+    //     e.preventDefault();
+    // }
+
+    handleSignIn (e) {
         e.preventDefault();
-    }
-
-    handleSignIn(e){
-
+        this.props.display();
+       
     }
 
     handleSignUp(e){
@@ -42,7 +49,7 @@ class Navbar extends Component {
                 <form onSubmit={this.handleClick}>
                     {/* <input type="email" class="username" placeholder="Username"/>
                     <input type="password" class="password" placeholder="Password"/> */}
-                    <button className = "signInButton" onClick={this.handleSignIn}>Sign In</button>
+                    <button className = "signInButton" onClick={this.handleSignIn.bind(this)}>Sign In</button>
                     <button className = "signUpButton" onClick={this.handleSignUp}>Sign Up</button>
                 </form>
                 {/* <div className = "signUp">
@@ -51,6 +58,7 @@ class Navbar extends Component {
             </div>
             
             </nav>
+
   
         </div>
       );

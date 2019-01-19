@@ -14,3 +14,42 @@ a {
   color: black;
   text-decoration: none;
 }
+
+
+.bg-modal{
+  width:100vw;
+  height:100vh;
+  background-color: rgba(0,0,0,0.7);
+  position: absolute;
+  top:0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* display: none; */
+}
+
+.modal-content{
+  width:500px;
+  height:500px;
+  background-color: white;
+  text-align: center;
+  position: relative;
+  padding:20px;
+}
+
+.close{
+  position: absolute;
+  top:0;
+  right:14px;
+  font-size:42px;
+  transform: rotate(45deg);
+  cursor: pointer;
+  display: inline;
+}
+
+.modal-content > form > input{
+  width:50%;
+  display: block;
+  margin:15px auto;
+  font-size:20px;
+}
