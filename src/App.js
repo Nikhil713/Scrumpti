@@ -11,7 +11,7 @@ class App extends Component {
         display : 'none'
       };
   }
-  
+
   showModal(){
     this.setState({
       display : 'flex'
@@ -28,15 +28,20 @@ class App extends Component {
         <Navbar display={this.showModal.bind(this)}/>
         <Body /> 
         <Footer />
-         {/* MODAL SECTION */}
+
+        {/* MODAL SECTION */}
         <div className = "bg-modal" style = {{display:this.state.display}}>
-                <div className = "modal-content">
+                <div className = "modalContent">
                   <div className = "close" onClick = {this.handleClick}>+</div>
+                  <a>FoodApp</a>
                     <form>
                       <input type = "text" placeholder = "Username"></input>
                       <input type = "text" placeholder = "Password"></input>
-                      <a href = "">Submit</a>
+                      <button href = "" className ="loginButton">Login</button>
                     </form>
+                    <input type = "checkbox" className = "check"></input>
+                    <div className = "rem">Remember me</div>
+                    <div><a href = "#" className = "forgot">Forgot Password?</a></div>
                 </div>
 
           </div>

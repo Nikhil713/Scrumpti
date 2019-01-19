@@ -28,13 +28,14 @@ a {
   /* display: none; */
 }
 
-.modal-content{
-  width:500px;
+.modalContent{
+  width:490px;
   height:500px;
   background-color: white;
   text-align: center;
   position: relative;
   padding:20px;
+  padding-top:40px;
 }
 
 .close{
@@ -47,9 +48,65 @@ a {
   display: inline;
 }
 
-.modal-content > form > input{
-  width:50%;
-  display: block;
-  margin:15px auto;
+
+.modalContent > a{
+  font-family: Peaches And Cream;
+  font-size:90px;
+  height: 20%;
+  padding:0px;
+  color: #5F0038;
+  /* border:black 1px solid; */
+}
+
+
+.modalContent >form > input{
+  width:90%;
+  display: inline-block;
+  border:1px solid #ccc;
+  box-sizing: border-box;
+  margin:20px auto;
   font-size:20px;
+  padding: 12px 20px;
+  position: relative;
+}
+
+.loginButton{
+  background-color: #5F0038;;
+  color: white;
+  padding: 14px 20px;  
+  margin:8px 26px;
+  /* border:solid 1px black; */
+  font-size:20px;
+  width: 90%;
+  cursor: pointer;
+  border-radius: 25px;
+}
+
+button:hover{
+  opacity: 0.8;
+}
+
+.check{
+  position: absolute;
+  left:20px;
+  margin: 26px 30px;
+}
+
+.rem{
+  position: absolute;
+  left:50px;
+  margin: 26px 30px;
+}
+
+.forgot{
+  text-decoration: none;
+  float: right;
+  /* font-size:2px; */
+  color: black;
+  margin-right:34px;
+  margin-top:26px;
+}
+
+.forgot:hover {
+  text-decoration: underline;
 }
