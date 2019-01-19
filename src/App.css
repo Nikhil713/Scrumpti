@@ -49,7 +49,7 @@ a {
 }
 
 
-.modalContentLogin,.modalContentSignup > a{
+.modalContentLogin > a,.modalContentSignup > a{
   font-family: Peaches And Cream;
   font-size:90px;
   height: 20%;
@@ -118,6 +118,29 @@ button:hover{
   background-color: white;
   text-align: center;
   position: relative;
+  margin-top:0px;
   padding:20px;
   padding-top:40px;
+}
+
+.modalContentSignup >form > input{
+  width:90%;
+  display: block;
+  border:1px solid #ccc;
+  box-sizing: border-box;
+  margin:15px auto;
+  font-size:20px;
+  padding: 10px 15px;
+  position: relative;
+}
+
+.modalContentSignup > div > button {
+  width:90%;
+  display :block;
+  border:1px solid black;
+  box-sizing: border-box;
+  font-size:20px;
+  margin:15px auto;
+  padding: 10px 15px;
+  position:relative;
 }
