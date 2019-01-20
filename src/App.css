@@ -151,5 +151,13 @@ button:hover{
 
 .or{
   font-size: 25px;
+}
 
+.fb{
+  background-color: #3b5998;
+  color: white;
+}
+
+.fb{
+  background-image: './assets/images/fb.png';
 }

@@ -71,8 +71,14 @@ class App extends Component {
             <button href = "" className ="loginButton">SignUp</button>
             <div className = "or"><hr />OR <hr /></div>
             <div>
-              <button className = "fb">Log In With Facebook</button>
-              <button className = "google">Log In With Google</button>
+              <button className = "fb">
+                <span className = "fblogo"></span>
+                <span>Log In With Facebook</span>
+              </button>
+              <button className = "google">
+                <span className = "googlelogo"></span>
+                <span className = "googlelogin">Log In With Google</span>
+              </button>
             </div>
             </div>
 
