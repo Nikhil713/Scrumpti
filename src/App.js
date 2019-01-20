@@ -62,14 +62,14 @@ class App extends Component {
           <div className = "modalContentSignup">
             <div className = "close" onClick = {this.handleClick}>+</div>
             <a>FoodApp</a>
-            <form>
-              Name:<input type = "text" placeholder = "Username"></input>
-              Email:<input type = "text" placeholder = "Email"></input>
-              Password:<input type = "text" placeholder = "Password"></input>
-              Retype Password:<input type = "text" placeholder = "Re-enter Password"></input>
-              <button href = "" className ="signUpButton">SignUp</button>
+            <form className = "signupForm">
+              <input type = "text" placeholder = "Username"></input>
+              <input type = "text" placeholder = "Email"></input>
+              <input type = "text" placeholder = "Password"></input>
+              <input type = "text" placeholder = "Confirm Password"></input>
             </form>
-            OR
+            <button href = "" className ="loginButton">SignUp</button>
+            <div className = "or"><hr />OR <hr /></div>
             <div>
               <button className = "fb">Log In With Facebook</button>
               <button className = "google">Log In With Google</button>
