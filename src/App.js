@@ -65,8 +65,8 @@ class App extends Component {
             <form className = "signupForm">
               <input type = "text" placeholder = "Username"></input>
               <input type = "text" placeholder = "Email"></input>
-              <input type = "text" placeholder = "Password"></input>
-              <input type = "text" placeholder = "Confirm Password"></input>
+              <input type = "password" placeholder = "Password"></input>
+              <input type = "password" placeholder = "Confirm Password"></input>
             </form>
             <button href = "" className ="loginButton">SignUp</button>
             <div className = "or"><hr />OR <hr /></div>
