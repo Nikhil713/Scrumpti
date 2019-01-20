@@ -158,6 +158,15 @@ button:hover{
   color: white;
 }
 
-.fb{
+/* .fblogo{
   background-image: './assets/images/fb.png';
+} */
+
+.google{
+  background-color: white;
+  color: black;
+}
+
+.fb:hover, .google:hover{
+  cursor: pointer;
 }
