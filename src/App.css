@@ -29,8 +29,8 @@ a {
 }
 
 .modalContentLogin{
-  width:490px;
-  height:500px;
+  width:28vw;
+  height:55vh;
   background-color: white;
   text-align: center;
   position: relative;
@@ -41,8 +41,8 @@ a {
 .close{
   position: absolute;
   top:0;
-  right:14px;
-  font-size:42px;
+  right:1vw;
+  font-size:2vw;
   transform: rotate(45deg);
   cursor: pointer;
   display: inline;
@@ -51,9 +51,9 @@ a {
 
 .modalContentLogin > a,.modalContentSignup > a{
   font-family: Peaches And Cream;
-  font-size:90px;
-  height: 20%;
-  padding:0px;
+  font-size:4vw;
+  /* height: 100vh; */
+  padding:0vw;
   color: #5F0038;
   /* border:black 1px solid; */
 }
@@ -61,25 +61,27 @@ a {
 
 .modalContentLogin >form > input{
   width:90%;
+  height: 5vh;
   display: inline-block;
   border:1px solid #ccc;
   box-sizing: border-box;
-  margin:20px auto;
-  font-size:20px;
-  padding: 12px 20px;
+  margin:2vw auto;
+  font-size:1vw;
+  padding: 1vw 1.4vw;
   position: relative;
 }
 
 .loginButton{
-  background-color: #5F0038;;
+  background-color: #5F0038;
+  height: 6vh;
   color: white;
-  padding: 14px 20px;  
-  margin:8px 26px;
+  /* padding: 1vw 1vw;   */
+  /* margin:0.8vw 2vw; */
   /* border:solid 1px black; */
-  font-size:20px;
+  font-size:1vw;
   width: 90%;
   cursor: pointer;
-  border-radius: 25px;
+  border-radius: 2vw;
 }
 
 button:hover{
@@ -88,39 +90,40 @@ button:hover{
 
 .check{
   position: absolute;
-  left:20px;
-  margin: 26px 30px;
+  left:0.6vw;
+  margin: 1.5vw 2.2vw;
 }
 
 .rem{
   position: absolute;
-  left:50px;
-  margin: 26px 30px;
+  left:2.5vw;
+  margin: 1.5vw 2.2vw;
+  font-size: 0.9vw;
 }
 
 .forgot{
   text-decoration: none;
   float: right;
-  /* font-size:2px; */
+  font-size:0.9vw;
   color: black;
-  margin-right:34px;
-  margin-top:26px;
+  margin-right:2.2vw;
+  margin-top:1.5vw;
 }
 
 .forgot:hover {
   text-decoration: underline;
-}
+} 
 
 
 .modalContentSignup{
-  width:550px;
-  height:750px;
+  width:30vw;
+  height:87vh;
   background-color: white;
   text-align: center;
   position: relative;
-  margin-top:0px;
-  padding:20px;
-  padding-top:40px;
+  margin-top:0vh;
+  padding:1.5vw;
+  padding-top:2.5vw;
 }
 
 .signupForm > input{
@@ -128,9 +131,9 @@ button:hover{
   display: block;
   border:1px solid #ccc;
   box-sizing: border-box;
-  margin:15px auto;
-  font-size:20px;
-  padding: 10px 15px;
+  margin:1.5vw auto;
+  font-size:1vw;
+  padding: 1vw 1vw;
   position: relative;
 }
 
@@ -139,18 +142,18 @@ button:hover{
   display :block;
   border:1px solid black;
   box-sizing: border-box;
-  font-size:20px;
-  margin:15px auto;
-  padding: 10px 15px;
+  font-size:1vw;
+  margin:1vw auto;
+  padding: 1vw 1.1vw;
   position:relative;
 }
 
 .signupForm{
-  padding: 30px; 
+  padding: 1vw; 
 }
 
 .or{
-  font-size: 25px;
+  font-size: 0.9vw;
 }
 
 .fb{

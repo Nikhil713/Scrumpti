@@ -30,33 +30,33 @@ class Navbar extends Component {
 
             <nav className = "navbar">
             
-            <div className = "appName">
-                <a href = "#" >Food-App</a>
-            </div>
-
-            <div className = "navLinks">
-                <a href = "#">Our Story</a>
-                <a href = "#">Menus</a>
-                <a href = "#">Order Online</a>
-                <a href = "#">Catering</a>
-                <a href = "#">Events</a>
-                <a href = "#">Contact & Reservations</a>
-            </div>
-        
-            <div className = "login" >
-                <div class="searchBar">
-                    <input type = "text" placeholder = "Search FoodApp" className = "searchBox"></input>
+                <div className = "appName">
+                    <a href = "#" >Food-App</a>
                 </div>
-                <form onSubmit={this.handleClick}>
-                    {/* <input type="email" class="username" placeholder="Username"/>
-                    <input type="password" class="password" placeholder="Password"/> */}
-                    <button className = "signInButton" onClick={this.handleSignIn.bind(this)}>Sign In</button>
-                    <button className = "signUpButton" onClick={this.handleSignUp.bind(this)}>Sign Up</button>
-                </form>
-                {/* <div className = "signUp">
-                    Don't have an account? <a href="#">Sign up</a>
-                    </div> */}
-            </div>
+
+                <div className = "navLinks">
+                    <a href = "#">Our Story</a>
+                    <a href = "#">Menus</a>
+                    <a href = "#">Order Online</a>
+                    <a href = "#">Catering</a>
+                    <a href = "#">Events</a>
+                    <a href = "#">Contact & Reservations</a>
+                </div>
+            
+                <div className = "login" >
+                    <div class="searchBar">
+                        <input type = "text" placeholder = "Search FoodApp" className = "searchBox"></input>
+                    </div>
+                    <form onSubmit={this.handleClick}>
+                        {/* <input type="email" class="username" placeholder="Username"/>
+                        <input type="password" class="password" placeholder="Password"/> */}
+                        <button className = "signInButton" onClick={this.handleSignIn.bind(this)}>Sign In</button>
+                        <button className = "signUpButton" onClick={this.handleSignUp.bind(this)}>Sign Up</button>
+                    </form>
+                    {/* <div className = "signUp">
+                        Don't have an account? <a href="#">Sign up</a>
+                        </div> */}
+                </div>
             
             </nav>
 
