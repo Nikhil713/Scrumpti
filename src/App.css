@@ -51,9 +51,9 @@ a {
 
 .modalContentLogin > a,.modalContentSignup > a{
   font-family: Peaches And Cream;
-  font-size:4vw;
+  font-size:5vw;
   /* height: 100vh; */
-  padding:0vw;
+  /* padding:0.5vw; */
   color: #5F0038;
   /* border:black 1px solid; */
 }
@@ -66,8 +66,8 @@ a {
   border:1px solid #ccc;
   box-sizing: border-box;
   margin:2vw auto;
-  font-size:1vw;
-  padding: 1vw 1.4vw;
+  font-size:1.3vw;
+  /* padding: 1vw 1.4vw; */
   position: relative;
 }
 
@@ -96,8 +96,8 @@ button:hover{
 
 .rem{
   position: absolute;
-  left:2.5vw;
-  margin: 1.5vw 2.2vw;
+  /* left:2.5vw;
+  margin: 1.5vw 2.2vw; */
   font-size: 0.9vw;
 }
 
@@ -156,6 +156,10 @@ button:hover{
   font-size: 0.9vw;
 }
 
+.remforgot{
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+}
 .fb{
   background-color: #3b5998;
   color: white;
@@ -172,4 +176,88 @@ button:hover{
 
 .fb:hover, .google:hover{
   cursor: pointer;
+}
+
+
+
+      /* RESPONSIVE */
+
+
+@media only screen and (max-width:480px)  {
+  .modalContentSignup{
+    width: 70%;
+    height:80%;
+  }
+
+  .modalContentLogin{
+    width:70%;
+    height:50%;
+  }
+
+  .modalContentLogin > a,.modalContentSignup > a{
+    font-size:20vw;
+    /* height: 100vh; */
+    padding:10vw;
+    color: #5F0038;
+    /* border:black 1px solid; */
+  }
+
+  .close{
+    font-size:8vw;
+  }
+
+  
+  .signupForm > input{
+    margin:5vw auto;
+    font-size:4.5vw;
+ 
+  }
+
+  .loginButton{
+    font-size: 5vw;
+  }
+
+
+.modalContentSignup > div > button {
+  width:90%;
+  display :block;
+  box-sizing: border-box;
+  font-size:4vw;
+  margin:3vw auto;
+  padding: 1vw 1.1vw;
+  position:relative;
+}
+
+.or{
+  font-size:4.5vw;
+}
+
+.modalContentLogin > a,.modalContentSignup > a{
+  font-size:15vw;
+
+}
+
+
+.modalContentLogin >form > input{
+  /* margin-left: 0; */
+  font-size:6vw;
+}
+
+.check{
+  margin:16vw 5vw;
+}
+.rem{
+  /* position: absolute; */
+  /* left:5vw;
+  margin: 15.5vw 7vw; */
+  font-size: 5vw;
+}
+
+.forgot{
+  font-size:5vw;
+  color: black;
+  /* margin-right:2.2vw; */
+  /* margin-top:1.5vw; */
+}
+
 }

@@ -49,10 +49,12 @@ class App extends Component {
                       <input type = "text" placeholder = "Password"></input>
                       <button href = "" className ="loginButton">Login</button>
                     </form>
-                    <input type = "checkbox" className = "check"></input>
-                    <div className = "rem">Remember me</div>
+                    
+                    <div className="remforgot">
+                    <div className = "rem"><input type = "checkbox" className = "check"></input>Remember me</div>
                     <div><a href = "#" className = "forgot">Forgot Password?</a></div>
-                </div>
+                    </div>
+                 </div>
           </div>
 
 
