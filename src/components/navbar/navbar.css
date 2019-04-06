@@ -115,3 +115,30 @@
     cursor: pointer;
   }
   
+
+  @media only screen and (max-width:500px){
+
+    .navbar{
+      /* display: grid; */
+      /* grid-template-columns:1 fr 1fr 1fr;  */
+      /* justify-content: center; */
+
+    }
+    .appName{
+      font-size: 10vw;
+      float: left;
+      /* background-color: #5F0038;  */
+    }
+    .navLinks{
+      display: none;
+    }
+
+    .login{
+      /* float: right; */
+      background-color: aqua
+    }
+    
+    .signInButton,.signUpButton{
+      font-size:2vw;
+    }
+  }

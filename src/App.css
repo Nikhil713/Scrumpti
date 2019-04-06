@@ -90,24 +90,28 @@ button:hover{
 
 .check{
   position: absolute;
-  left:0.6vw;
-  margin: 1.5vw 2.2vw;
+  /* left:3.3vw; */
+  /* margin: 1.5vw 2.2vw; */
+  cursor: pointer;
 }
 
-.rem{
-  position: absolute;
-  /* left:2.5vw;
-  margin: 1.5vw 2.2vw; */
-  font-size: 0.9vw;
+.remforgot{
+  /* border:1px solid black;   */
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-top:2vw;
+  font-size:1vw;
 }
+
+ .rem{
+  float: left;
+  margin-left:1.2vw;
+ }
 
 .forgot{
   text-decoration: none;
   float: right;
-  font-size:0.9vw;
-  color: black;
-  margin-right:2.2vw;
-  margin-top:1.5vw;
+  color: black; 
 }
 
 .forgot:hover {
@@ -183,7 +187,8 @@ button:hover{
       /* RESPONSIVE */
 
 
-@media only screen and (max-width:480px)  {
+@media only screen and (max-width:500px)  {
+
   .modalContentSignup{
     width: 70%;
     height:80%;
@@ -191,7 +196,7 @@ button:hover{
 
   .modalContentLogin{
     width:70%;
-    height:50%;
+    height:60%;
   }
 
   .modalContentLogin > a,.modalContentSignup > a{
@@ -232,32 +237,44 @@ button:hover{
   font-size:4.5vw;
 }
 
-.modalContentLogin > a,.modalContentSignup > a{
-  font-size:15vw;
-
-}
-
-
 .modalContentLogin >form > input{
   /* margin-left: 0; */
   font-size:6vw;
+  padding: 5vw;
+}
+
+
+.remforgot{
+  /* border: 1px solid black; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* display: grid;
+    grid-template-rows: 1fr 1fr; */
 }
 
 .check{
-  margin:16vw 5vw;
+  position: relative;
+  left:2vw;
+  /* bottom: 20vw; */
 }
 .rem{
   /* position: absolute; */
   /* left:5vw;
   margin: 15.5vw 7vw; */
   font-size: 5vw;
+  /* background-color: #3b5998; */
+  height: 100%;
+  /* margin-left: 8vw; */
+  margin-bottom: 5vw; 
 }
 
 .forgot{
+  /* background-color: #5F0038; */
   font-size:5vw;
   color: black;
-  /* margin-right:2.2vw; */
-  /* margin-top:1.5vw; */
+  margin-left: 15vw;
+  margin-top:30vw;
 }
 
 }

@@ -51,7 +51,8 @@ class App extends Component {
                     </form>
                     
                     <div className="remforgot">
-                    <div className = "rem"><input type = "checkbox" className = "check"></input>Remember me</div>
+                    <input type = "checkbox" className = "check"></input>
+                    <div><a className = "rem">Remember me</a></div>
                     <div><a href = "#" className = "forgot">Forgot Password?</a></div>
                     </div>
                  </div>
