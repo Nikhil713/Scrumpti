@@ -42,11 +42,11 @@ class Navbar extends Component {
                     <a href = "#">Events</a>
                     <a href = "#">Contact & Reservations</a>
                 </div>
-            
-                <div className = "login" >
-                    <div class="searchBar">
+                <div class="searchBar">
                         <input type = "text" placeholder = "Search FoodApp" className = "searchBox"></input>
-                    </div>
+                </div>
+                <div className = "login" >
+                
                     <form onSubmit={this.handleClick}>
                         {/* <input type="email" class="username" placeholder="Username"/>
                         <input type="password" class="password" placeholder="Password"/> */}

@@ -119,26 +119,57 @@
   @media only screen and (max-width:500px){
 
     .navbar{
-      /* display: grid; */
-      /* grid-template-columns:1 fr 1fr 1fr;  */
-      /* justify-content: center; */
-
+      /* background-color: pink; */
+      display: flex;
+      justify-content: center;
+      display: grid;
+      height: 30vh;         
     }
+
     .appName{
-      font-size: 10vw;
-      float: left;
+      font-size: 20vw;
+      width:100vw;
+      /* float: left; */
       /* background-color: #5F0038;  */
     }
     .navLinks{
       display: none;
+      background-color: blue
+    }
+
+    .searchBar{
+      /* border:1px solid black; */
+      width:100vw;
+      display: flex;
+      justify-content: center;
+      align-items:center; 
+    }
+    .searchBar>input{
+      width:60vw;  
     }
 
     .login{
       /* float: right; */
-      background-color: aqua
+      width:100vw;
+      display: flex;
+      justify-content: center;
+      align-items:center; 
+      /* background-color: aqua; */
+    }
+
+    .login>form{
+      display: grid;
+      grid-template-rows: 1fr 1fr;    
     }
     
-    .signInButton,.signUpButton{
-      font-size:2vw;
+    .signInButton{
+      font-size:5vw;
+      margin: 1vw;
+      /* margin-right: 3vw; */
+    }
+
+    .signUpButton{
+      font-size:4vw;
+      margin:1vw;
     }
   }
