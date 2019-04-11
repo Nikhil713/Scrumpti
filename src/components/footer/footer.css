@@ -2,7 +2,7 @@
 footer {
     position: relative;
     width: 100vw;
-    height: 19vh;
+    height: 30vh;
   }
   
 
@@ -57,3 +57,38 @@ footer {
   cursor: default;
 }
   
+
+@media only screen and (max-width:500px){
+
+  .COMPANY>a{
+    display: none;
+  }
+
+  .INFO{
+    /* background-color: black; */
+    font-size: 20vw;
+  
+  }
+
+  .linksBlock>.INFO>a{
+    float: left;
+    justify-content: flex-start;
+    font-size: 5vw;
+    /* margin: 2vw; */
+    /* background-color: brown;  */
+  }
+
+  .BENEFITS{
+    width:50vw;
+  }
+  .linksBlock>.BENEFITS>a{
+    float: right;
+    margin-left:10vw;
+    justify-content: flex-end;
+    font-size:4vw;
+  }
+
+  .BLOG>a{
+    display: none;
+  }
+} 

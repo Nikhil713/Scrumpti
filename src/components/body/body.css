@@ -70,3 +70,31 @@
     opacity: 1  ;
     border-radius: 20px;
   }
+
+  @media only screen and (max-width:500px){
+
+    .mainPage{
+      width:100vw;
+    }
+    .mainPageName{
+      /* font-size:30vw; */
+      display: none;
+    }
+
+    .mainPageText{
+      font-size:13vw; 
+      font-family: 'Times New Roman', Times, serif;
+      /* display: flex;
+      justify-content: center; */
+    }
+
+    .menu{
+      display: grid;
+    }
+
+    .menu>button{
+      width:80vw;
+      font-size:5vw;
+      margin:1vw;
+    }
+  }
