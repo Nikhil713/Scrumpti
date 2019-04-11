@@ -116,7 +116,7 @@
   }
   
 
-  @media only screen and (max-width:500px){
+  @media only screen and (max-width:768px){
 
     .navbar{
       /* background-color: pink; */
@@ -127,7 +127,7 @@
     }
 
     .appName{
-      font-size: 20vw;
+      font-size: 15vw;
       width:100vw;
       /* float: left; */
       /* background-color: #5F0038;  */
@@ -163,13 +163,13 @@
     }
     
     .signInButton{
-      font-size:5vw;
+      font-size:4vw;
       margin: 1vw;
       /* margin-right: 3vw; */
     }
 
     .signUpButton{
-      font-size:4vw;
+      font-size:3vw;
       margin:1vw;
     }
   }
