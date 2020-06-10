@@ -64,7 +64,7 @@ class App extends Component {
           <div className = "bg-modal" style = {{display:this.state.display1}}>
           <div className = "modalContentSignup">
             <div className = "close" onClick = {this.handleClick}>+</div>
-            <a>FoodApp</a>
+            <a>Scrumpti</a>
             <form className = "signupForm">
               <input type = "text" placeholder = "Username"></input>
               <input type = "text" placeholder = "Email"></input>

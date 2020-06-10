@@ -25,10 +25,10 @@ class Body extends Component{
             <div class="mainPage">
                 <div class = "mainPageContent">
                     <div class = "mainPageName">
-                        Food App
+                        Scrumpti
                     </div>
                     <div class = "mainPageText">
-                        EXPERIENCE THE JOY OF FOOD
+                        Its always hot
                     </div>
                     {/* <div class = "diveIn">
                         <button onMouseOver={this.handleMouseOver} onMouseOut={this.handleMouseOut} style={{background:this.state.bgcolor,color:this.state.color}}>DIVE IN</button>

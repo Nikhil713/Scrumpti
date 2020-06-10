@@ -31,7 +31,7 @@ class Navbar extends Component {
             <nav className = "navbar">
             
                 <div className = "appName">
-                    <a href = "#" >Food-App</a>
+                    <a href = "#" >Scrumpti</a>
                 </div>
 
                 <div className = "navLinks">

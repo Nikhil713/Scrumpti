@@ -3,7 +3,7 @@
     position: relative;
     width:100vw;
     height: 88vh;
-    background: linear-gradient( rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.3) ), url('../../assets/images/food.jpg');
+    background: linear-gradient( rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.3) ), url('../../assets/images/bg.jpg');
     background-size: cover;
     display: flex;
     align-items: center;
@@ -35,7 +35,11 @@
     margin-left: 40px;
     display: flex;
     justify-content:center;
-    font-size: 3.5vw;
+    font-size: 4vw;
+    font-weight: 100;
+    letter-spacing: 10px;
+    font-family: "Peaches And Cream";
+    font-variant-caps: petite-caps ;
     /* background-color: violet; */
   }
   
